@@ -11,12 +11,12 @@ https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dih
 
 
 ## Ski resorts:
-
-https://www.sattel-hochstuckli.ch/en  (800m to 1200) - Central Switzerland 
-https://www.hoch-ybrig.ch/en/winter/service/brochure/  (900-1900) Central Switzerland
-https://www.atzmaennig.ch/en/winter/  (800-1200) Zurich Region
-https://www.villars-diablerets.ch/en/ (1200-3000)
-https://www.champex.info/ (1486-2194)
+1. https://www.sattel-hochstuckli.ch/en  (800m to 1200) - Central Switzerland
+2. https://www.hoch-ybrig.ch/en/winter/service/brochure/  (900-1900) Central Switzerland
+3. https://www.atzmaennig.ch/en/winter/  (800-1200) Zurich Region
+4. https://www.villars-diablerets.ch/en/ (1200-3000)
+5. https://www.champex.info/ (1486-2194)
+6. https://www.davos.ch/winter/berge/jakobshorn/ (1500 - 2500)
 
 ## Datasets:
 

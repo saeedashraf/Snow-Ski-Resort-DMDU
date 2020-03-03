@@ -25,3 +25,10 @@ C:\Saeid\Prj122-UZH_Snow\Code\Prj123-pcpTmpCompare\SolidPoint\SolidPoint\obj\Deb
 C:\Saeid\Prj122-UZH_Snow\Code\Prj123-pcpTmpCompare\SolidPoint\SolidPoint\obj\Debug\SolidPoint.pdb
 C:\Saeid\Prj122-UZH_Snow\Code\Prj123-pcpTmpCompare\SolidPoint\SolidPoint\bin\Debug\SolidPoint.exe.CodeAnalysisLog.xml
 C:\Saeid\Prj122-UZH_Snow\Code\Prj123-pcpTmpCompare\SolidPoint\SolidPoint\bin\Debug\SolidPoint.exe.lastcodeanalysissucceeded
+C:\Saeid\Prj122-UZH_Snow\Code\cloned_repo\snowmodel_csharp\SolidPoint\SolidPoint\bin\Debug\SolidPoint.exe.config
+C:\Saeid\Prj122-UZH_Snow\Code\cloned_repo\snowmodel_csharp\SolidPoint\SolidPoint\bin\Debug\SolidPoint.exe
+C:\Saeid\Prj122-UZH_Snow\Code\cloned_repo\snowmodel_csharp\SolidPoint\SolidPoint\bin\Debug\SolidPoint.pdb
+C:\Saeid\Prj122-UZH_Snow\Code\cloned_repo\snowmodel_csharp\SolidPoint\SolidPoint\obj\Debug\SolidPoint.csprojAssemblyReference.cache
+C:\Saeid\Prj122-UZH_Snow\Code\cloned_repo\snowmodel_csharp\SolidPoint\SolidPoint\obj\Debug\SolidPoint.csproj.CoreCompileInputs.cache
+C:\Saeid\Prj122-UZH_Snow\Code\cloned_repo\snowmodel_csharp\SolidPoint\SolidPoint\obj\Debug\SolidPoint.exe
+C:\Saeid\Prj122-UZH_Snow\Code\cloned_repo\snowmodel_csharp\SolidPoint\SolidPoint\obj\Debug\SolidPoint.pdb

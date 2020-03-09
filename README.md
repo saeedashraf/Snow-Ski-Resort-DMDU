@@ -3,7 +3,7 @@ This project analyses the impact of climate change on the financial situation of
 
 
 ## Highlited literature:
-1.Kees et al (2020), "Climate change induced socio-economic tipping points"
+1.van Ginkel et al (2020), "Climate change induced socio-economic tipping points"
 https://iopscience.iop.org/article/10.1088/1748-9326/ab6395
 
 2.Damm et al (2014), "Does artificial snow production pay under future climate conditions?"

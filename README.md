@@ -2,7 +2,7 @@
 This project analyses the impact of climate change on the financial situation of Ski resorts.
 
 
-## Highlited literature:
+## Literature:
 1.van Ginkel et al (2020), "Climate change induced socio-economic tipping points"
 https://iopscience.iop.org/article/10.1088/1748-9326/ab6395
 

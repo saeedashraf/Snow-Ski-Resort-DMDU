@@ -27,4 +27,21 @@ https://www.sciencedirect.com/science/article/pii/S1364815217301251
 The main modular snow model consists of Ablation, and Accumulation modules:
 https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/snow_model_v1.ipynb
 
+### Computer Vision
+
+<details>
+<summary>S1 - <i>Course Introduction</i></summary>
+
+#### 🎯 Topics
+`Computer vision overview`
+`Course logistics`
+
+#### 💡 Slides
+Introduction [PDF](http://class.vision/96-97/01_intro.pdf)
+
+#### 📒 NoteBooks
+1. [Beginning](0-Beginning.ipynb)
+</details>
+
+
 ## Slides:

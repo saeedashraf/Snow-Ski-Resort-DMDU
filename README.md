@@ -9,6 +9,10 @@ https://iopscience.iop.org/article/10.1088/1748-9326/ab6395
 2.Damm et al (2014), "Does artificial snow production pay under future climate conditions?"
 https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub
 
+3. Kwakkel (2017), The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making"
+https://www.sciencedirect.com/science/article/pii/S1364815217301251
+
+
 ## Datasets:
 1. https://www.sattel-hochstuckli.ch/en  (800m to 1200) - Central Switzerland
 2. https://www.hoch-ybrig.ch/en/winter/service/brochure/  (900-1900) Central Switzerland
@@ -19,5 +23,8 @@ https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dih
 
 
 ## Jupyter Notebooks:
+
+The main modular snow model consists of Ablation, and Accumulation modules:
+[a link](https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/snow_model_v1.ipynb
 
 ## Slides:

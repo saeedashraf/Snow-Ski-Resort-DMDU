@@ -30,18 +30,37 @@ https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/
 ## Framework:
 
 <details>
-<summary>N1 - <i>Snow Model</i></summary>
+<summary>T1 - <i>Snow Model</i></summary>
 
-#### Topics
-`Computer vision overview`
-`Course logistics`
+### Topics
+`Snow model overview`
+`Snow model for grids`
 
-####  Literature
-Farinotti [PDF](http://class.vision/96-97/01_intro.pdf)
+###  Literature
+Farinotti [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
 
-####  NoteBooks
+###  NoteBooks
 1. [snowModel version 1](snowmodel_py/snow_model_v1.ipynb)
 </details>
 
+
+<details>
+<summary>T2 - <i>Snow Model post processing</i></summary>
+
+### Topics
+`Computer vision overview`
+`Course logistics`
+
+###  Literature
+
+
+###  NoteBooks
+1. [Visualization of snow model]
+(snowModel2_Visualization.ipynb)
+
+2. [Visualization of snow model with elevation band]
+(snowModel2_Visualization_elevBand.ipynb)
+
+</details>
 
 ## Slides:

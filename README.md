@@ -25,6 +25,6 @@ https://www.sciencedirect.com/science/article/pii/S1364815217301251
 ## Jupyter Notebooks:
 
 The main modular snow model consists of Ablation, and Accumulation modules:
-[a link](https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/snow_model_v1.ipynb
+https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/snow_model_v1.ipynb
 
 ## Slides:

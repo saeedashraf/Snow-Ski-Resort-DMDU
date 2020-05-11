@@ -1,10 +1,7 @@
 # snow-ski-resort-finance
 This project analyses the impact of climate change on the financial situation of Ski resorts.
 
-
-## Literature:
-
-
+\n\n\n
 
 
 ## Datasets:
@@ -16,10 +13,8 @@ This project analyses the impact of climate change on the financial situation of
 6. https://www.davos.ch/winter/berge/jakobshorn/ (1500 - 2500)
 
 
-## Jupyter Notebooks:
-
-The main modular snow model consists of Ablation, and Accumulation modules:
-https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/snow_model_v1.ipynb
+## Input Datasets:
+CH2018 [link] (https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
 
 ## Framework:
 
@@ -29,6 +24,8 @@ https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/
 ### Topics
 `Snow model overview`
 `Snow model for grids`
+
+The main modular snow model consists of Ablation, and Accumulation modules.
 
 ###  Literature
 Farinotti (2012) [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
@@ -84,4 +81,4 @@ https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dih
 
 </details>
 
-## Slides:
+

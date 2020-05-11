@@ -32,8 +32,11 @@ https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/
 
 ###  Literature
 Farinotti (2012) [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
+
 Huss (2008a) [link](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JF000803)
+
 Huss (2008b) [link](https://onlinelibrary.wiley.com/doi/10.1002/hyp.7055)
+
 Hock (2005)[link](https://journals.sagepub.com/doi/10.1191/0309133305pp453ra)
 
 

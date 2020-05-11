@@ -14,12 +14,19 @@ This project analyses the impact of climate change on the financial situation of
 ## Input Datasets:
 CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
 
+68 CH2018 scenarios 
+
 ## Outputs:
-The results of the snow model (in .csv format) for the case studies are collected [here](data_out_snow). For this step, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
+The results of the snow model (csv format) for the case studies are collected [here](data_out_snow). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
 
-After considering elevation bands (500m) for case study No4 (Villars-Diableret) and No6 ( Jakobshorn), new results were generated and stored [here](data_out_snow_villars-diablerets_elev_band), and [here](/data_out_snow_davos_elev_band).
+After considering elevation bands (500m) for the case study No.4 (Villars-Diableret) and No.6 ( Jakobshorn), new results were generated and stored [here](data_out_snow_villars-diablerets_elev_band), and [here](/data_out_snow_davos_elev_band).
 
-After considering the 
+After considering the uncertainty of climate scenarios by producing 68 new climate scenarios () [here](data_out_randomness_snow) and runing the snow model, the new results where stored: 
+
+[here](data_out_randomness_snow), 
+[here](data_out_snow_randomness_davos_elev_band), and 
+[here](data_out_snow_randomness_villars-diablerets_elev_band)
+
 
 ## Framework:
 
@@ -65,7 +72,7 @@ No3. [Visualization of snow model with elevation bands](snowModel2_Visualization
 ### Topics
 `Deep Uncertainy`
 
-In this task a python code was developed to produce new climate scenarios based on CH2018 dataset
+In this task a paython code was developed to produce new climate scenarios based on CH2018 dataset
 
 ###  Literature
 van Ginkel et al (2020), "Climate change induced socio-economic tipping points" [link](https://iopscience.iop.org/article/10.1088/1748-9326/ab6395)

@@ -65,7 +65,7 @@ No3. [Visualization of snow model with elevation bands](snowModel2_Visualization
 ### Topics
 `Deep Uncertainy`
 
-In this task a paython code was developed to produce new climate scenarios based on CH2018 dataset
+In this task a python code was developed to produce new climate scenarios based on CH2018 dataset
 
 ###  Literature
 van Ginkel et al (2020), "Climate change induced socio-economic tipping points" [link](https://iopscience.iop.org/article/10.1088/1748-9326/ab6395)

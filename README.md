@@ -55,11 +55,9 @@ Farinotti [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
 
 
 ###  NoteBooks
-1. [Visualization of snow model]
-(snowModel2_Visualization.ipynb)
+1. [Visualization of snow model](snowModel2_Visualization.ipynb)
 
-2. [Visualization of snow model with elevation band]
-(snowModel2_Visualization_elevBand.ipynb)
+2. [Visualization of snow model with elevation band](snowModel2_Visualization_elevBand.ipynb)
 
 </details>
 

@@ -3,14 +3,15 @@ This project analyses the impact of climate change on the financial situation of
 
 
 ## Literature:
-1.van Ginkel et al (2020), "Climate change induced socio-economic tipping points"
+1. van Ginkel et al (2020), "Climate change induced socio-economic tipping points"
 https://iopscience.iop.org/article/10.1088/1748-9326/ab6395
 
-2.Damm et al (2014), "Does artificial snow production pay under future climate conditions?"
+2. Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making"
+https://www.sciencedirect.com/science/article/pii/S1364815217301251
+
+3. Damm et al (2014), "Does artificial snow production pay under future climate conditions?"
 https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub
 
-3. Kwakkel (2017), The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making"
-https://www.sciencedirect.com/science/article/pii/S1364815217301251
 
 
 ## Datasets:
@@ -37,9 +38,13 @@ https://github.com/saeedashraf/snow-ski-resort-finance/blob/master/snowmodel_py/
 `Snow model for grids`
 
 ###  Literature
-Farinotti [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
+Farinotti (2012) [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
+Huss (2008a) [link](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JF000803)
+Huss (2008b) [link](https://onlinelibrary.wiley.com/doi/10.1002/hyp.7055)
+Hock (2005)[link](https://journals.sagepub.com/doi/10.1191/0309133305pp453ra)
 
-###  NoteBooks
+
+###  Notebooks
 1. [snowModel version 1](snowmodel_py/snow_model_v1.ipynb)
 </details>
 

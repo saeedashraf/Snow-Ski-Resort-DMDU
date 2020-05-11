@@ -48,8 +48,8 @@ Farinotti [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
 <summary>T2 - <i>Snow Model post processing</i></summary>
 
 ### Topics
-`Computer vision overview`
-`Course logistics`
+`Visualization of snow model results`
+`Visualization of tipping points`
 
 ###  Literature
 

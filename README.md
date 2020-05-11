@@ -3,14 +3,7 @@ This project analyses the impact of climate change on the financial situation of
 
 
 ## Literature:
-1. van Ginkel et al (2020), "Climate change induced socio-economic tipping points"
-https://iopscience.iop.org/article/10.1088/1748-9326/ab6395
 
-2. Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making"
-https://www.sciencedirect.com/science/article/pii/S1364815217301251
-
-3. Damm et al (2014), "Does artificial snow production pay under future climate conditions?"
-https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub
 
 
 
@@ -57,7 +50,14 @@ Hock (2005)[link](https://journals.sagepub.com/doi/10.1191/0309133305pp453ra)
 `Visualization of tipping points`
 
 ###  Literature
+van Ginkel et al (2020), "Climate change induced socio-economic tipping points"
+https://iopscience.iop.org/article/10.1088/1748-9326/ab6395
 
+Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making"
+https://www.sciencedirect.com/science/article/pii/S1364815217301251
+
+Damm et al (2014), "Does artificial snow production pay under future climate conditions?"
+https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub
 
 ###  NoteBooks
 1. [Visualization of snow model](snowModel2_Visualization.ipynb)

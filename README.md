@@ -14,6 +14,13 @@ This project analyses the impact of climate change on the financial situation of
 ## Input Datasets:
 CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
 
+## Outputs:
+The results of the snow model (in .csv format) for the case studies are collected [here](data_out_snow). For this step, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
+
+After considering elevation bands (500m) for case study No4 (Villars-Diableret) and No6 ( Jakobshorn), new results were generated and stored [here](data_out_snow_villars-diablerets_elev_band), and [here](/data_out_snow_davos_elev_band).
+
+After considering the 
+
 ## Framework:
 
 <details>

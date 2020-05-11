@@ -40,10 +40,9 @@ Huss (2008b) [link](https://onlinelibrary.wiley.com/doi/10.1002/hyp.7055)
 Hock (2005)[link](https://journals.sagepub.com/doi/10.1191/0309133305pp453ra)
 
 
-###  Notebooks
+###  Notebooks 
 1. [snowModel version 1](snowmodel_py/snow_model_v1.ipynb)
 </details>
-
 
 <details>
 <summary>T2 - <i>Snow Model post processing</i></summary>
@@ -51,6 +50,20 @@ Hock (2005)[link](https://journals.sagepub.com/doi/10.1191/0309133305pp453ra)
 ### Topics
 `Visualization of snow model results`
 `Visualization of tipping points`
+###  Notebooks
+1. [Visualization of snow model](snowModel2_Visualization.ipynb)
+
+2. [Visualization of snow model with elevation band](snowModel2_Visualization_elevBand.ipynb)
+
+</details>
+
+<details>
+<summary>T3 - <i>Deep uncertainty in climate scenarios</i></summary>
+
+### Topics
+`Deep Uncertainy`
+
+In this task a paython code was developed to produce new climate scenarios based on CH2018 dataset
 
 ###  Literature
 van Ginkel et al (2020), "Climate change induced socio-economic tipping points"
@@ -62,10 +75,12 @@ https://www.sciencedirect.com/science/article/pii/S1364815217301251
 Damm et al (2014), "Does artificial snow production pay under future climate conditions?"
 https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub
 
-###  NoteBooks
-1. [Visualization of snow model](snowModel2_Visualization.ipynb)
+###  Notebooks
+1. [Randomness notebook](randomness_tmp_pcp.ipynb)
 
-2. [Visualization of snow model with elevation band](snowModel2_Visualization_elevBand.ipynb)
+2. [Visualization of snow model outputs](snowModel2_randomness_Visualization.ipynb)
+
+3. [Visualization of snow model outpts with elevation bands](snowModel2_randomness_Visualization_elevBand.ipynb)
 
 </details>
 

@@ -14,7 +14,7 @@ This project analyses the impact of climate change on the financial situation of
 
 
 ## Input Datasets:
-CH2018 [link] (https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
+CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
 
 ## Framework:
 

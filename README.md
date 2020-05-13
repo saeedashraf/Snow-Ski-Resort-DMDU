@@ -48,6 +48,8 @@ CH2018 "Switzerland CH2018 climate scenarios" [here](https://www.nccs.admin.ch/n
 In this task, a modular grid-based snow model was developed. The current model consists of Ablation, and Accumulation modules, with the possibility of adding new modules in the future. The main 
 
 ###  Literature
+Marty (2017) "How much can we save? Impact of different emission scenarios on future snow cover in the Alps" [link](https://www.the-cryosphere.net/11/517/2017/)
+
 Farinotti (2012) "Runoff evolution in the Swiss Alps: projections for selected high-alpine catchments based on ENSEMBLES scenarios" [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.8276)
 
 Huss (2008a) "Determination of the seasonal mass balance of four Alpine glaciers since 1865" [link](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007JF000803)
@@ -103,7 +105,7 @@ No6. [Visualization of snow model outpts with elevation bands](snowModel2_random
 ### Topics
 `Deep Uncertainy` `Decision Making`
 
-In this task, a python code will be developed to connect our existing notebooks (NO.1, NO.4) to the Exploratory Modelling and Analysis (EMA) Workbench [here](https://emaworkbench.readthedocs.io/en/latest/)
+In this task, a python code will be developed to connect our existing notebooks (No.1, No.4) to the Exploratory Modelling and Analysis (EMA) Workbench [here](https://emaworkbench.readthedocs.io/en/latest/)
 
 ###  Literature
 van Ginkel et al (2020), "Climate change induced socio-economic tipping points" [link](https://iopscience.iop.org/article/10.1088/1748-9326/ab6395)
@@ -117,3 +119,15 @@ Damm et al (2014), "Does artificial snow production pay under future climate con
 
 </details>
 
+## Jupyter Notebooks:
+No1. [snowModel version 1](snowmodel_py/snow_model_v1.ipynb)
+
+No2. [Visualization of snow model](snowModel2_Visualization.ipynb)
+
+No3. [Visualization of snow model with elevation bands](snowModel2_Visualization_elevBand.ipynb)
+
+No4. [Randomness notebook](randomness_tmp_pcp.ipynb)
+
+No5. [Visualization of snow model outputs](snowModel2_randomness_Visualization.ipynb)
+
+No6. [Visualization of snow model outpts with elevation bands](snowModel2_randomness_Visualization_elevBand.ipynb)

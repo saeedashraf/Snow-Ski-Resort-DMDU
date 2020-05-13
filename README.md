@@ -16,7 +16,6 @@ In total six ski resortes were selcted for this study:
 ## Input Datasets:
 CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
 
-68 CH2018 scenarios 
 
 ## Outputs:
 The results of the snow model (csv format) for the case studies are collected [here](data_out_snow). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
@@ -28,10 +27,11 @@ After considering the uncertainty of climate scenarios by producing 68 new clima
 
 ## Framework:
 <details>
-<summary>T1 - <i><b>Climate Data</i></summary>
+<summary>T1 - <i><b>Climate Data</b></i></summary>
 
 ### Topics
 `CH2018`
+
 In this task, the data of located climate grids inside each Ski resorts are extracted from CH2018 datasets. 
 
 ###  Literature
@@ -40,10 +40,10 @@ CH2018 "Switzerland CH2018 climate scenarios" [here](https://www.nccs.admin.ch/n
 
 
 <details>
-<summary>T2 - <i><b>Snow Model</i></summary>
+<summary>T2 - <i><b>Snow Model</b></i></summary>
 
 ### Topics
-`Snow model` `Ablation` `Accumulation` `grid-based`
+`Snow model` `Ablation` `Accumulation` 
 
 In this task, a modular grid-based snow model was developed. The current model consists of Ablation, and Accumulation modules, with the possibility of adding new modules in the future. The main 
 
@@ -63,7 +63,7 @@ No1. [snowModel version 1](snowmodel_py/snow_model_v1.ipynb)
 
 
 <details>
-<summary>T3 - <i><b>Snow Model post processing</i></summary>
+<summary>T3 - <i><b>Snow Model post processing</b></i></summary>
 
 ### Topics
 `Visualization of snow model results` `Visualization of tipping points`
@@ -75,7 +75,7 @@ No3. [Visualization of snow model with elevation bands](snowModel2_Visualization
 </details>
 
 <details>
-<summary>T4 - <i><b>Deep uncertainty in climate scenarios</i></summary>
+<summary>T4 - <i><b>Deep uncertainty in climate scenarios</b></i></summary>
 
 ### Topics
 `Deep Uncertainy`
@@ -98,10 +98,11 @@ No6. [Visualization of snow model outpts with elevation bands](snowModel2_random
 </details>
 
 <details>
-<summary>T5 - <i><b>Decision Making under Deep Uncertainty</i></summary>
+<summary>T5 - <i><b>Decision Making under Deep Uncertainty</b></i></summary>
 
 ### Topics
-`Deep Uncertainy``Decision Making`
+`Deep Uncertainy` `Decision Making`
+
 In this task, a python code will be developed to connect our existing notebooks (NO.1, NO.4) to the Exploratory Modelling and Analysis (EMA) Workbench [here](https://emaworkbench.readthedocs.io/en/latest/)
 
 ###  Literature

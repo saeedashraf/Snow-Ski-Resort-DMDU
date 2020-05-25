@@ -52,7 +52,7 @@ Hock (2005)"Glacier melt: a review of processes and their modelling" [link](http
 
 
 ###  Notebooks 
-No1. [snowModel version 1](snowmodel_py/snow_model_v1.ipynb)
+No1. [snowModel version 2](snowmodel_py/snow_model_v2.ipynb)
 </details>
 
 

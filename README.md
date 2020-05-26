@@ -107,7 +107,7 @@ Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for 
 Damm et al (2014), "Does artificial snow production pay under future climate conditions?"[link](https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub)
 
 ###  Notebooks
-
+No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 
 </details>
 
@@ -123,6 +123,8 @@ No4. [Randomness notebook](randomness_tmp_pcp.ipynb)
 No5. [Visualization of snow model outputs](snowModel2_randomness_Visualization.ipynb)
 
 No6. [Visualization of snow model outpts with elevation bands](snowModel2_randomness_Visualization_elevBand.ipynb)
+
+No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 
 ## Outputs:
 The results of the snow model (csv format) for the case studies are collected [here](data_out_snow). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 

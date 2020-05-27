@@ -1,5 +1,5 @@
-# snow-ski-resort-finance
-This project analyses the impact of climate change on the financial situation of Ski resorts.
+# Snow-Ski-Resort-DMDU
+This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
 
 
 ## Case Studies:

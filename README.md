@@ -108,6 +108,7 @@ Damm et al (2014), "Does artificial snow production pay under future climate con
 
 ###  Notebooks
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
+
 No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
 
 </details>

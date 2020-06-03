@@ -108,6 +108,7 @@ Damm et al (2014), "Does artificial snow production pay under future climate con
 
 ###  Notebooks
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
+No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
 
 </details>
 
@@ -125,6 +126,8 @@ No5. [Visualization of snow model outputs](snowModel2_randomness_Visualization.i
 No6. [Visualization of snow model outpts with elevation bands](snowModel2_randomness_Visualization_elevBand.ipynb)
 
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
+
+No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
 
 ## Outputs:
 The results of the snow model (csv format) for the case studies are collected [here](data_out_snow). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 

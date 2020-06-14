@@ -111,6 +111,8 @@ No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbenc
 
 No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
 
+No9. [snowModel version 2-5_EMA-workbench](snow_model_vcloned_v2-5_ema_workbench.ipynb)
+
 </details>
 
 ## Jupyter Notebooks:
@@ -129,6 +131,8 @@ No6. [Visualization of snow model outpts with elevation bands](snowModel2_random
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 
 No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
+
+No9. [snowModel version 2-5_EMA-workbench](snow_model_vcloned_v2-5_ema_workbench.ipynb)
 
 ## Outputs:
 The results of the snow model (csv format) for the case studies are collected [here](data_out_snow). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 

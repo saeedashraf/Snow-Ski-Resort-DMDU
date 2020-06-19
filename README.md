@@ -139,9 +139,9 @@ No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vclone
 No10. [snowModel version 2_5_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
 
 ## Outputs:
-The results of the snow model (csv format) for the case studies are collected [here](data_out_snow). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
+The results of the snow model (csv format) for the case studies are collected [here](Outputs_Results). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
 
-After considering elevation bands (500m) for the case study No.4 (Villars-Diableret) and No.6 ( Jakobshorn), new results were generated and stored [here](data_out_snow_villars-diablerets_elev_band), and [here](/data_out_snow_davos_elev_band).
+After considering elevation bands (500m) for the case study No.4 (Villars-Diableret) and No.6 ( Jakobshorn), new results were generated.
 
-After considering the uncertainty of climate scenarios by producing 68 new climate scenarios [here](data_out_randomness_snow) and runing the snow model, the new results were stored [here](data_out_randomness_snow), [here](data_out_snow_randomness_davos_elev_band), and [here](data_out_snow_randomness_villars-diablerets_elev_band).
+After considering the uncertainty of climate scenarios by producing 68 new climate scenarios, and runing the snow model, the new results were produced
 

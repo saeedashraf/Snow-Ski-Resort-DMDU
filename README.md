@@ -1,6 +1,16 @@
 # Snow-Ski-Resort-DMDU
 This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
 
+The repository contains the code and partial data for for the manuscript: 
+
+## Getting Started
+To set up a working example, clone the github repository and install all software requirements listed in the requirements.txt. Main tool used is Python. Installing within an Anaconda enviroment is recommended.
+
+In order to run illustrative examples six downloads are required from:
+
+Below are the six necessary file to download:
+
+Once repository is set up locally with all code and correctly placed data, follow below instructions for each step.
 
 ## Case Studies:
 In total six ski resortes were selcted for this study:
@@ -145,3 +155,11 @@ After considering elevation bands (500m) for the case study No.4 (Villars-Diable
 
 After considering the uncertainty of climate scenarios by producing 68 new climate scenarios, and runing the snow model, the new results were produced
 
+
+### Prerequisites
+
+Manuscript:
+
+## Acknowledgments
+
+Thanks to all our collaborators at the UZH, Deltares, and SLF and all other collegues contributing with advice and experience. 

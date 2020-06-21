@@ -1,4 +1,6 @@
 # Snow-Ski-Resort-DMDU
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
 
 The repository contains the code and partial data for for the manuscript: 

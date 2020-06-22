@@ -3,6 +3,7 @@
 
 This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
 
+repo with the code, data, and analysis for the Ski project of University of Zurich.
 The repository contains the code and partial data for for the manuscript: 
 
 ## Getting Started

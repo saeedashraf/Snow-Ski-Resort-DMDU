@@ -3,7 +3,7 @@
 
 This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
 
-repo with the code, data, and analysis for the Ski project of University of Zurich.
+repo with the code, data, and analysis for the Ski project of University of Zürich.
 The repository contains the code and partial data for for the manuscript: 
 
 ## Getting Started
@@ -11,7 +11,6 @@ To set up a working example, clone the github repository and install all softwar
 
 In order to run illustrative examples six downloads are required from:
 
-Below are the six necessary file to download:
 
 Once repository is set up locally with all code and correctly placed data, follow below instructions for each step.
 
@@ -26,7 +25,7 @@ In total six ski resortes were selcted for this study:
 6. https://www.davos.ch/winter/berge/jakobshorn/ (1500 - 2500)
 
 
-## Input Datasets:
+## Climate Datasets:
 CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
 
 
@@ -132,6 +131,8 @@ No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned
 
 No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
 
+No13. [EXL_version5](ema/XLRd_v5.ipynb)
+
 </details>
 
 ## Jupyter Notebooks:
@@ -158,6 +159,10 @@ No10. [snowModel version 2_5_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5
 No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
 
 No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
+
+No13. [EXL_version5](ema/XLRd_v5.ipynb)
+
+
 
 
 ## Outputs:

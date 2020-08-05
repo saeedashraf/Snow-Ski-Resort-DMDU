@@ -131,7 +131,7 @@ No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned
 
 No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
 
-No13. [EXL_version5](ema/XLRd_v5.ipynb)
+No13. [EXL_version5](ema_/XLRd_v5.ipynb)
 
 </details>
 
@@ -160,7 +160,7 @@ No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned
 
 No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
 
-No13. [EXL_version5](ema/XLRd_v5.ipynb)
+No13. [EXL_version5](ema_/XLRd_v5.ipynb)
 
 
 

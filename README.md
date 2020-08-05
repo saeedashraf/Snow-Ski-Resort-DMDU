@@ -126,7 +126,11 @@ No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_work
 
 No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_ch2018_v1_ema_workbench.ipynb)
 
-No10. [snowModel version 2_5_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
+No10. [snowModel version 2_5_eandomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
+
+No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
+
+No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
 
 </details>
 
@@ -150,6 +154,11 @@ No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_work
 No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_ch2018_v1_ema_workbench.ipynb)
 
 No10. [snowModel version 2_5_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
+
+No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
+
+No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
+
 
 ## Outputs:
 The results of the snow model (csv format) for the case studies are collected [here](Outputs_Results). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 

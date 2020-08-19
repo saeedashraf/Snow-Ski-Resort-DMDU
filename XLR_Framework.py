@@ -257,21 +257,21 @@ def snow_Model (xRCP=None, xClimateModel=None, Xfactor1 = None,  X2fM = None, X3
         src = os.getcwd()
         os.chdir(climateFolder)
         dst = os.getcwd()
-        copytree(src, dst)
+        #copytree(src, dst)
         print('Original CH2018 is being used')
     elif (xClimateRandomness == 2) :
         os.chdir(climateFolder1)
         src = os.getcwd()
         os.chdir(climateFolder)
         dst = os.getcwd()
-        copytree(src, dst)
+        #copytree(src, dst)
         print('Random Climate realization version 1 is being used')
     else:
         os.chdir(climateFolder2)
         src = os.getcwd()
         os.chdir(climateFolder)
         dst = os.getcwd()
-        copytree(src, dst)
+        #copytree(src, dst)
         print('Random Climate realization version 2 is being used')
         
     os.chdir(climateFolder)
@@ -283,13 +283,21 @@ def snow_Model (xRCP=None, xClimateModel=None, Xfactor1 = None,  X2fM = None, X3
     pcpCaseStudy = []
     tmpCaseStudy = []
 
-    for i in range(len(caseStudyStns)):
-        pcpCaseStudy.append(os.path.join(climateFolder, caseStudyStns[i]['fileName'] + 'p.csv'))
-        tmpCaseStudy.append(os.path.join(climateFolder, caseStudyStns[i]['fileName'] + 't.csv'))
-    
-
+    if (xClimateRandomness == 1):
+        for i in range(len(caseStudyStns)):
+            pcpCaseStudy.append(os.path.join(climateFolder, caseStudyStns[i]['fileName'] + 'p.csv'))
+            tmpCaseStudy.append(os.path.join(climateFolder, caseStudyStns[i]['fileName'] + 't.csv'))
+    elif (xClimateRandomness == 2) :
+        for i in range(len(caseStudyStns)):
+            pcpCaseStudy.append(os.path.join(climateFolder1, caseStudyStns[i]['fileName'] + 'p.csv'))
+            tmpCaseStudy.append(os.path.join(climateFolder1, caseStudyStns[i]['fileName'] + 't.csv'))
+    else:
+        for i in range(len(caseStudyStns)):
+            pcpCaseStudy.append(os.path.join(climateFolder2, caseStudyStns[i]['fileName'] + 'p.csv'))
+            tmpCaseStudy.append(os.path.join(climateFolder2, caseStudyStns[i]['fileName'] + 't.csv'))
+        
+        
     print('Snow_Model: Building a database for each csv file (tmp and pcp)!')
-    
     '''Step 6: building a database for each precipitation and temperature file in Climate folder and saving them in a list'''
     '''6.1 reading the csv files as databases'''
     dfpcp = [None for _ in range(len(pcpCaseStudy))]
@@ -952,10 +960,10 @@ if __name__ == '__main__':
                        Constant("xRevenueDay", 10)]
     
 
-    results = perform_experiments(model, 1000, 2)
+    #results = perform_experiments(model, 4, 5)
 
-    #with MultiprocessingEvaluator(model, n_processes=4) as evaluator:
-     #   results = evaluator.perform_experiments(scenarios=4, policies=5)
+    with MultiprocessingEvaluator(model, n_processes=4) as evaluator:
+        results = evaluator.perform_experiments(scenarios=4, policies=5)
 
 
 
@@ -969,4 +977,4 @@ print('training time : {} hours {} mins and {} seconds '.format(training_time //
 # Save the outputs
 from ema_workbench import save_results
 #save_results(results, r'./1000 runs.tar.gz')
-save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig_v3_2\CHrandomness_4\2000_runs.tar.gz')
+#save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig_v3_2\CHrandomness_5\2000_runs.tar.gz')

@@ -4,10 +4,10 @@
 This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
 
 repo with the code, data, and analysis for the Ski project of University of Zürich.
-The repository contains the code and partial data for for the manuscript: 
+The repository contains the code and partial data for the manuscript:
 
 ## Getting Started
-To set up a working example, clone the github repository and install all software requirements listed in the requirements.txt. Main tool used is Python. Installing within an Anaconda enviroment is recommended.
+To set up a working example, clone the GitHub repository and install all software requirements listed in the requirements.txt. Main tool used is Python. Installing within an Anaconda environment is recommended.
 
 In order to run illustrative examples six downloads are required from:
 
@@ -15,7 +15,7 @@ In order to run illustrative examples six downloads are required from:
 Once repository is set up locally with all code and correctly placed data, follow below instructions for each step.
 
 ## Case Studies:
-In total six ski resortes were selcted for this study:
+In total six ski resorts were selected for this study:
 
 1. https://www.sattel-hochstuckli.ch/en  (800m to 1200) - Central Switzerland
 2. https://www.hoch-ybrig.ch/en/winter/service/brochure/  (900-1900) Central Switzerland
@@ -36,7 +36,7 @@ CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch
 ### Topics
 `CH2018`
 
-In this task, the data of located climate grids inside each Ski resorts are extracted from CH2018 datasets. 
+In this task, the data of located climate grids inside each Ski resorts are extracted from CH2018 datasets.
 
 ###  Literature
 CH2018 "Switzerland CH2018 climate scenarios" [here](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
@@ -47,9 +47,9 @@ CH2018 "Switzerland CH2018 climate scenarios" [here](https://www.nccs.admin.ch/n
 <summary>T2 - <i><b>Snow Model</b></i></summary>
 
 ### Topics
-`Snow model` `Ablation` `Accumulation` 
+`Snow model` `Ablation` `Accumulation`
 
-In this task, a modular grid-based snow model was developed. The current model consists of Ablation, and Accumulation modules, with the possibility of adding new modules in the future. The main 
+In this task, a modular grid-based snow model was developed. The current model consists of Ablation, and Accumulation modules, with the possibility of adding new modules in the future. The main
 
 ###  Literature
 Marty (2017) "How much can we save? Impact of different emission scenarios on future snow cover in the Alps" [link](https://www.the-cryosphere.net/11/517/2017/)
@@ -63,7 +63,7 @@ Huss (2008b) "Modelling runoff from highly glacierized alpine drainage basins in
 Hock (2005)"Glacier melt: a review of processes and their modelling" [link](https://journals.sagepub.com/doi/10.1191/0309133305pp453ra)
 
 
-###  Notebooks 
+###  Notebooks
 No1. [snowModel version 2](snowmodel_py/snow_model_v2.ipynb)
 </details>
 
@@ -71,9 +71,9 @@ No1. [snowModel version 2](snowmodel_py/snow_model_v2.ipynb)
 <summary>T3 - <i><b>Deep uncertainty in climate scenarios</b></i></summary>
 
 ### Topics
-`Deep Uncertainy`
+`Deep Uncertainty`
 
-In this task a paython code was developed to produce new climate scenarios based on CH2018 dataset
+In this task a python code was developed to produce new climate scenarios based on CH2018 dataset
 
 ###  Literature
 van Ginkel et al (2020), "Climate change induced socio-economic tipping points" [link](https://iopscience.iop.org/article/10.1088/1748-9326/ab6395)
@@ -81,6 +81,8 @@ van Ginkel et al (2020), "Climate change induced socio-economic tipping points" 
 Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for exploratory modeling, scenario discovery, and (multi-objective) robust decision making"  [link](https://www.sciencedirect.com/science/article/pii/S1364815217301251)
 
 Damm et al (2014), "Does artificial snow production pay under future climate conditions?"[link](https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub)
+###  Notebooks
+Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 
 </details>
 
@@ -88,7 +90,7 @@ Damm et al (2014), "Does artificial snow production pay under future climate con
 <summary>T4 - <i><b>Decision Making under Deep Uncertainty</b></i></summary>
 
 ### Topics
-`Deep Uncertainy` `Decision Making`
+`Deep Uncertainty` `Decision Making`
 
 In this task, a python code will be developed to connect our existing notebooks (No.1, No.4) to the Exploratory Modelling and Analysis (EMA) Workbench [here](https://emaworkbench.readthedocs.io/en/latest/)
 
@@ -119,12 +121,12 @@ No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
 
 Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 =======
-No13. [EXL_version5](ema_/XLR_v5_randomness.ipynb)
->>>>>>> ema_
+
+>>>>>>> c6b4440a88b07729d612313e7f5e5addc5417ea9
 
 </details>
 
-## Jupyter Notebooks:
+## All the Jupyter notebooks and Python codes of the project:
 
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 
@@ -144,32 +146,15 @@ No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
 
 Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
-
-
-
-No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
-
-No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
-
-No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_ch2018_v1_ema_workbench.ipynb)
-
-No10. [snowModel version 2_5_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
-
-No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
-
-No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
-
-No13. [EXL_version5](ema_/XLR_v5_randomness.ipynb)
-
-
+Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 
 
 ## Outputs:
-The results of the snow model (csv format) for the case studies are collected [here](Outputs_Results). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
+The results of the snow model (csv format) for the case studies are collected. In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies.
 
 After considering elevation bands (500m) for the case study No.4 (Villars-Diableret) and No.6 ( Jakobshorn), new results were generated.
 
-After considering the uncertainty of climate scenarios by producing 68 new climate scenarios, and runing the snow model, the new results were produced
+After considering the uncertainty of climate scenarios by producing 68 new climate scenarios, and running the snow model, the new results were produced
 
 
 ### Prerequisites
@@ -178,4 +163,4 @@ Manuscript:
 
 ## Acknowledgments
 
-Thanks to all our collaborators at the UZH, Deltares, and SLF and all other collegues contributing with advice and experience. 
+Thanks to all our collaborators at the UZH, Deltares, and SLF and all other colleagues contributing with advice and experience.

@@ -31,7 +31,7 @@ CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch
 
 ## Framework:
 <details>
-<summary>T1 - <i><b>Climate Data</b></i></summary>
+<summary>T1 - <i><b>Climate Scenario</b></i></summary>
 
 ### Topics
 `CH2018`
@@ -67,21 +67,8 @@ Hock (2005)"Glacier melt: a review of processes and their modelling" [link](http
 No1. [snowModel version 2](snowmodel_py/snow_model_v2.ipynb)
 </details>
 
-
 <details>
-<summary>T3 - <i><b>Snow Model post processing</b></i></summary>
-
-### Topics
-`Visualization of snow model results` `Visualization of tipping points`
-
-###  Notebooks
-No2. [Visualization of snow model](snowModel2_Visualization.ipynb)
-
-No3. [Visualization of snow model with elevation bands](snowModel2_Visualization_elevBand.ipynb)
-</details>
-
-<details>
-<summary>T4 - <i><b>Deep uncertainty in climate scenarios</b></i></summary>
+<summary>T3 - <i><b>Deep uncertainty in climate scenarios</b></i></summary>
 
 ### Topics
 `Deep Uncertainy`
@@ -95,16 +82,10 @@ Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for 
 
 Damm et al (2014), "Does artificial snow production pay under future climate conditions?"[link](https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub)
 
-###  Notebooks
-No4. [Randomness notebook](randomness_tmp_pcp.ipynb)
-
-No5. [Visualization of snow model outputs](snowModel2_randomness_Visualization.ipynb)
-
-No6. [Visualization of snow model outpts with elevation bands](snowModel2_randomness_Visualization_elevBand.ipynb)
 </details>
 
 <details>
-<summary>T5 - <i><b>Decision Making under Deep Uncertainty</b></i></summary>
+<summary>T4 - <i><b>Decision Making under Deep Uncertainty</b></i></summary>
 
 ### Topics
 `Deep Uncertainy` `Decision Making`
@@ -131,22 +112,15 @@ No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned
 
 No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
 
-No13. [EXL_version5](ema_/XLR_v5_randomness.ipynb)
+No13. [XLR_version5](ema_/XLR_v5_randomness.ipynb)
+
+No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
+
+Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
 </details>
 
 ## Jupyter Notebooks:
-No1. [snowModel version 1](snowmodel_py/snow_model_v1.ipynb)
-
-No2. [Visualization of snow model](snowModel2_Visualization.ipynb)
-
-No3. [Visualization of snow model with elevation bands](snowModel2_Visualization_elevBand.ipynb)
-
-No4. [Randomness notebook](randomness_tmp_pcp.ipynb)
-
-No5. [Visualization of snow model outputs](snowModel2_randomness_Visualization.ipynb)
-
-No6. [Visualization of snow model outpts with elevation bands](snowModel2_randomness_Visualization_elevBand.ipynb)
 
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 
@@ -160,7 +134,11 @@ No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned
 
 No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
 
-No13. [EXL_version5](ema_/XLR_v5_randomness.ipynb)
+No13. [XLR_version5](ema_/XLR_v5_randomness.ipynb)
+
+No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
+
+Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
 
 

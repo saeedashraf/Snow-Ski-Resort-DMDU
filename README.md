@@ -120,7 +120,7 @@ Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
 </details>
 
-## Jupyter Notebooks:
+## All the Jupyter Notebooks of the project:
 
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 

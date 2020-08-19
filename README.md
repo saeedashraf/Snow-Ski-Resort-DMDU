@@ -1,6 +1,18 @@
-# snow-ski-resort-finance
-This project analyses the impact of climate change on the financial situation of Ski resorts.
+# Snow-Ski-Resort-DMDU
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
+
+repo with the code, data, and analysis for the Ski project of University of Zürich.
+The repository contains the code and partial data for for the manuscript: 
+
+## Getting Started
+To set up a working example, clone the github repository and install all software requirements listed in the requirements.txt. Main tool used is Python. Installing within an Anaconda enviroment is recommended.
+
+In order to run illustrative examples six downloads are required from:
+
+
+Once repository is set up locally with all code and correctly placed data, follow below instructions for each step.
 
 ## Case Studies:
 In total six ski resortes were selcted for this study:
@@ -13,7 +25,7 @@ In total six ski resortes were selcted for this study:
 6. https://www.davos.ch/winter/berge/jakobshorn/ (1500 - 2500)
 
 
-## Input Datasets:
+## Climate Datasets:
 CH2018 [link](https://www.nccs.admin.ch/nccs/en/home/the-nccs/priority-themes/ch2018-climate-scenarios.html)
 
 
@@ -107,7 +119,19 @@ Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for 
 Damm et al (2014), "Does artificial snow production pay under future climate conditions?"[link](https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub)
 
 ###  Notebooks
+No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 
+No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
+
+No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_ch2018_v1_ema_workbench.ipynb)
+
+No10. [snowModel version 2_5_eandomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
+
+No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
+
+No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
+
+No13. [EXL_version5](ema_/XLR_v5_randomness.ipynb)
 
 </details>
 
@@ -124,10 +148,35 @@ No5. [Visualization of snow model outputs](snowModel2_randomness_Visualization.i
 
 No6. [Visualization of snow model outpts with elevation bands](snowModel2_randomness_Visualization_elevBand.ipynb)
 
+No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
+
+No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
+
+No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_ch2018_v1_ema_workbench.ipynb)
+
+No10. [snowModel version 2_5_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
+
+No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
+
+No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
+
+No13. [EXL_version5](ema_/XLR_v5_randomness.ipynb)
+
+
+
+
 ## Outputs:
-The results of the snow model (csv format) for the case studies are collected [here](data_out_snow). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
+The results of the snow model (csv format) for the case studies are collected [here](Outputs_Results). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
 
-After considering elevation bands (500m) for the case study No.4 (Villars-Diableret) and No.6 ( Jakobshorn), new results were generated and stored [here](data_out_snow_villars-diablerets_elev_band), and [here](/data_out_snow_davos_elev_band).
+After considering elevation bands (500m) for the case study No.4 (Villars-Diableret) and No.6 ( Jakobshorn), new results were generated.
 
-After considering the uncertainty of climate scenarios by producing 68 new climate scenarios [here](data_out_randomness_snow) and runing the snow model, the new results were stored [here](data_out_randomness_snow), [here](data_out_snow_randomness_davos_elev_band), and [here](data_out_snow_randomness_villars-diablerets_elev_band).
+After considering the uncertainty of climate scenarios by producing 68 new climate scenarios, and runing the snow model, the new results were produced
 
+
+### Prerequisites
+
+Manuscript:
+
+## Acknowledgments
+
+Thanks to all our collaborators at the UZH, Deltares, and SLF and all other collegues contributing with advice and experience. 

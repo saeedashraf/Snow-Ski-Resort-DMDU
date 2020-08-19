@@ -114,19 +114,18 @@ No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned
 
 No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
 
-<<<<<<< HEAD
 No13. [XLR_version5](ema_/XLR_v5_randomness.ipynb)
 
 No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
 
 Code_Python_15. [XLR_framework_python](XLR_Framework.py)
-=======
 
->>>>>>> c6b4440a88b07729d612313e7f5e5addc5417ea9
+Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 
 </details>
 
 ## All the Jupyter notebooks and Python codes of the project:
+Here all the codes are located:
 
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 

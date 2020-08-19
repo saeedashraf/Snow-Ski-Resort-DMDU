@@ -147,7 +147,7 @@ Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 
 
 ## Outputs:
-The results of the snow model (csv format) for the case studies are collected [here](Outputs_Results). In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
+The results of the snow model (csv format) for the case studies are collected. In these analyses, no elevation bands were considered for Villars-Diablerets and Jakobshorn case studies. 
 
 After considering elevation bands (500m) for the case study No.4 (Villars-Diableret) and No.6 ( Jakobshorn), new results were generated.
 

@@ -87,7 +87,7 @@ Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 </details>
 
 <details>
-<summary>T4 - <i><b>Decision Making under Deep Uncertainty</b></i></summary>
+<summary>T4 - <i><b>Decision Making under Deep Uncertainty _ simulations</b></i></summary>
 
 ### Topics
 `Deep Uncertainty` `Decision Making`
@@ -120,18 +120,22 @@ No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
 
 Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
-Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
+</details>
 
+<details>
+<summary>T5 - <i><b>Decision Making under Deep Uncertainty _ Visualization</b></i></summary>
+
+###  Notebooks
 No17. [XLR_Visualization_version8_setup1](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
 
 No18. [XLR_Visualization_version8_setup2](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup2.ipynb)
 
 No19. [XLR_Visualization_version8_setup3_no plicy](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup3.ipynb)
 
-</details>
+<details>
 
 ## All the Jupyter notebooks and Python codes of the project:
-Here all the codes are located:
+All the codes are presented here:
 
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 

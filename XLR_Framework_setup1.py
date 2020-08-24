@@ -987,7 +987,7 @@ from ema_workbench import save_results
 #save_results(results, r'./1000 runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case1_sattel-hochstuckli\CHrandomness_5\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case2_Atzmaening\CHrandomness_5\7500_runs.tar.gz')
-save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig_v3_2\CHrandomness_6\7500_runs.tar.gz')
+save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig_v3_2\CHrandomness_7\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b1339\CHrandomness_5\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b1822\CHrandomness_5\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b2000\CHrandomness_5\7500_runs.tar.gz')

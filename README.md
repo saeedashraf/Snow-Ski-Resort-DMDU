@@ -122,6 +122,12 @@ Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
 Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 
+No17. [XLR_Visualization_version8_setup1](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
+
+No18. [XLR_Visualization_version8_setup2](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup2.ipynb)
+
+No19. [XLR_Visualization_version8_setup3_no plicy](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup3.ipynb)
+
 </details>
 
 ## All the Jupyter notebooks and Python codes of the project:
@@ -146,6 +152,13 @@ No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
 Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
 Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
+
+No17. [XLR_Visualization_version8_setup1](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
+
+No18. [XLR_Visualization_version8_setup2](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup2.ipynb)
+
+No19. [XLR_Visualization_version8_setup3_no plicy](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup3.ipynb)
+
 
 
 ## Outputs:

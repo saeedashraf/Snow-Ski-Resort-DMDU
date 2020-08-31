@@ -36,7 +36,7 @@ Returns:
 
 *y*: Seasonal average (1981-2100) of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
 
-*y1: The Climate model which has been used (Should not be presented in the outcomes)
+*y1*: The Climate model which has been used (Should not be presented in the outcomes)
 
 *y3*: Seasonal (1981-2100) number of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
 

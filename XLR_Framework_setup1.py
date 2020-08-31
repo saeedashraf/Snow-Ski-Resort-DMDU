@@ -164,7 +164,7 @@ climateFolder2 = ''
 
 #root = r'C:\Saeid\Prj100\SA_2\snowModelUZH\case1_sattel-hochstuckli'
 #root = r'C:\Saeid\Prj100\SA_2\snowModelUZH\case2_Atzmaening'
-root = r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig_v3_2'
+root = r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig\setup1'
 #root = r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b1339'
 #root = r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b1822'
 #root = r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b2000'
@@ -221,6 +221,7 @@ class Economic_Model_Ski:
 class RCP_Model:
     def __init__(self, xRCP, xClimateModel):
         self.input1 = round(xRCP)
+        #self.input1 = xRCP
         self.input2 = xClimateModel  
         
     def rcpGenerator(self):
@@ -249,6 +250,30 @@ class RCP_Model:
             climateModel = 36 + max(1, round(self.input2*31))
             
         return (int(climateModel))
+
+def tipping_points_freq(df, xGoodDays):
+    """
+    This function, calculates the frequency of tipping points for each individual resort
+    """
+    dfColumns= df.columns
+    
+    scenarios_length= len(dfColumns)
+    simulations_Length = len(df[dfColumns[1]])
+    tipping_freq = np.zeros(scenarios_length)
+    
+    for i in range (1, scenarios_length, 1):
+        m = 0
+        for j in range (1 , simulations_Length, 1):
+            if float(df[dfColumns[i]].iloc[j]) < xGoodDays:
+                m += 1
+                if m == 3:
+                    tipping_freq[i] += 1
+                    m = 0
+            else:
+                m = 0
+                continue    
+                #break
+    return tipping_freq
 
 # XLR Framework
 def snow_Model (xRCP=None, xClimateModel=None, Xfactor1 = None,  X2fM = None, X3iPot = None, X4rSnow = None, 
@@ -578,6 +603,7 @@ def snow_Model (xRCP=None, xClimateModel=None, Xfactor1 = None,  X2fM = None, X3
         dfnew1 = pd.DataFrame(total, columns = columnsDF)
         df1 = pd.concat([dfnew0, dfnew1], axis=1, sort=False)
         
+
         '''Money and Artifical Snow'''
         dfnew2 = pd.DataFrame(totalMoney, columns = columnsDF_aerSnowCheck)
         df2 = pd.concat([dfnew0, dfnew2], axis=1, sort=False)
@@ -587,8 +613,9 @@ def snow_Model (xRCP=None, xClimateModel=None, Xfactor1 = None,  X2fM = None, X3
             pass
         else: os.mkdir(os.path.join(root, 'Outputs_py'))
 
-            
-        '''daile Snow Outputs'''
+        
+
+        '''Make CSvs for daily Snow Outputs'''
         outfolder =os.path.join(root, 'Outputs_py') 
         outfileName = 'Total_daily_' + caseStudyStns[k]['fileName'] + '.csv'
         outputFile = os.path.join(outfolder, outfileName )
@@ -728,7 +755,9 @@ def snow_Model (xRCP=None, xClimateModel=None, Xfactor1 = None,  X2fM = None, X3
                 else: 
                     dfFinalSeason.to_csv(outputFileSeason, index = False)
             
-            
+            '''Calculating the tipping points'''
+            tipping_points = tipping_points_freq(dfFinalSeason, xGoodDays)
+            tipping_points_Report = float(tipping_points[1:])
             
             print('Snow Model: Continuing of Part 2, Seasonal Outputs, Likelihood Analyses!')
             
@@ -911,7 +940,7 @@ def snow_Model (xRCP=None, xClimateModel=None, Xfactor1 = None,  X2fM = None, X3
         #return df1, outfolder, dfFinalSeason
         #return {'y' : x1 * Xfactor1 * X2}
         return {'y' : AveragesumRows, 'y1' : climateModel, 'y2' : dfpcpCol[climateModel], 'y3' : sumRows,
-                'y4' : AveragesumRowsArtSnow, 'y5' : AveragesumRowsProfit  ,'y6' : AveragereportMatrix }
+                'y4' : AveragesumRowsArtSnow, 'y5' : AveragesumRowsProfit, 'y6' : AveragereportMatrix, 'y7' : tipping_points_Report}
 
 # Step 4: EMA_Workbench connector
 '''
@@ -925,7 +954,7 @@ It's main purpose has been to test the parallel processing functionality
 #(absolute_import, print_function, division,
 #                       unicode_literals)
 
-from ema_workbench import (Model, RealParameter, Constant, ScalarOutcome, ema_logging,
+from ema_workbench import (Model, RealParameter, Constant, ScalarOutcome, ema_logging, IntegerParameter,
                           perform_experiments, TimeSeriesOutcome, ArrayOutcome)
 
 from ema_workbench import (MultiprocessingEvaluator)
@@ -942,14 +971,15 @@ if __name__ == '__main__':
     
     # specify process model parameters  xRCP=None, xClimateModel=None
     model.uncertainties = [RealParameter("Xfactor1",  0.51, 3.49),
-                           RealParameter("xRCP", 0.51, 3.49),
+                            IntegerParameter ("xRCP", 1,3),  
+                            #RealParameter("xRCP", 0.51, 3.49),
                            RealParameter("xClimateModel", 0, 1),
                            RealParameter("X2fM", 1.01, 1.61),
                            RealParameter("X3iPot", 900, 1100),                        
                            RealParameter("X5temp", 3.0, 6.0),
                            RealParameter("X6tempArt", -2.0, -1.0)]
     
-    # specify polices
+    # specify polices IntegerParameter
     model.levers = [RealParameter("x1SnowThershold", 200.0, 300.0),
                     RealParameter("xGoodDays", 70.0 , 100.0)]
    
@@ -960,7 +990,8 @@ if __name__ == '__main__':
                       ArrayOutcome('y3'),
                       ScalarOutcome('y4'),
                       ScalarOutcome('y5'),
-                      ScalarOutcome('y6')]
+                      ScalarOutcome('y6'),
+                      ScalarOutcome('y7')]
     
     # override some of the defaults of the model
     model.constants = [Constant("X4rSnow", 0.7),
@@ -968,16 +999,16 @@ if __name__ == '__main__':
                        Constant("xRevenueDay", 10)]
     
 
-    results = perform_experiments(model, 1500, 5)
+    #results = perform_experiments(model, 1500, 5)
+    results = perform_experiments(model, 200, 20)
+
 
     #with MultiprocessingEvaluator(model, n_processes=4) as evaluator:
     #    results = evaluator.perform_experiments(scenarios=4, policies=5)
 
 
-
 print('end!')
 training_time = time.time() - start_time
-
 
 print("--- %s seconds ---" % (training_time))
 print('training time : {} mins and {} seconds'.format((training_time // 60) , round((training_time % 60), 1)))
@@ -987,7 +1018,7 @@ from ema_workbench import save_results
 #save_results(results, r'./1000 runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case1_sattel-hochstuckli\CHrandomness_5\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case2_Atzmaening\CHrandomness_5\7500_runs.tar.gz')
-save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig_v3_2\CHrandomness_7\7500_runs.tar.gz')
+save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case3_hoch-ybrig\setup1\Results_1\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b1339\CHrandomness_5\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b1822\CHrandomness_5\7500_runs.tar.gz')
 #save_results(results, r'C:\Saeid\Prj100\SA_2\snowModelUZH\case4_villars-diablerets_elevations_b2000\CHrandomness_5\7500_runs.tar.gz')

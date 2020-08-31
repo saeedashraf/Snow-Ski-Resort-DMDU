@@ -18,8 +18,8 @@ Once repository is set up locally with all code and correctly placed data, follo
 In total six ski resorts were selected for this study:
 
 1. https://www.sattel-hochstuckli.ch/en  (800m to 1200) - Central Switzerland
-2. https://www.hoch-ybrig.ch/en/winter/service/brochure/  (900-1900) Central Switzerland
-3. https://www.atzmaennig.ch/en/winter/  (800-1200) Zurich Region
+2. https://www.atzmaennig.ch/en/winter/  (800-1200) Zurich Region
+3. https://www.hoch-ybrig.ch/en/winter/service/brochure/  (900-1900) Central Switzerland
 4. https://www.villars-diablerets.ch/en/ (1200-3000)
 5. https://www.champex.info/ (1486-2194)
 6. https://www.davos.ch/winter/berge/jakobshorn/ (1500 - 2500)
@@ -87,7 +87,7 @@ Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 </details>
 
 <details>
-<summary>T4 - <i><b>Decision Making under Deep Uncertainty</b></i></summary>
+<summary>T4 - <i><b>Decision Making under Deep Uncertainty _ simulations</b></i></summary>
 
 ### Topics
 `Deep Uncertainty` `Decision Making`
@@ -120,12 +120,23 @@ No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
 
 Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
-Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
+</details>
 
+<details>
+<summary>T5 - <i><b>Decision Making under Deep Uncertainty _ Visualization</b></i></summary>
+
+###  Literature
+
+###  Notebooks
+No17. [XLR_Visualization_version8_setup1](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
+
+No18. [XLR_Visualization_version8_setup2](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup2.ipynb)
+
+No19. [XLR_Visualization_version8_setup3_no plicy](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup3.ipynb)
 </details>
 
 ## All the Jupyter notebooks and Python codes of the project:
-Here all the codes are located:
+All the codes are presented here:
 
 No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
 
@@ -146,6 +157,13 @@ No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
 Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 
 Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
+
+No17. [XLR_Visualization_version8_setup1](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
+
+No18. [XLR_Visualization_version8_setup2](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup2.ipynb)
+
+No19. [XLR_Visualization_version8_setup3_no plicy](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup3.ipynb)
+
 
 
 ## Outputs:

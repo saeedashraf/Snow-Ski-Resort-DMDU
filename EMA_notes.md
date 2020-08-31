@@ -35,12 +35,19 @@ Returns:
 *y6* : AveragereportMatrix (Scalar) ~ ?? (from 0.1 to 0.8) 
 
 *y*: Seasonal average (1981-2100) of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
+
 *y1: The Climate model which has been used (Should not be presented in the outcomes)
+
 *y3*: Seasonal (1981-2100) number of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
+
 *y4*: Seasonal average (1981-2100) of number of days with the possibility of Artificial Snow Making (ave TEMP < -2 to -1)
+
 *y5*: Relative seasonal average (1981-2100) of Financial balance of Ski resort
+
 *y6*: Seasonal average (1981-2100) Likelihood of survival of a Ski resort from tipping points
+
 *y7*: Number of tipping points (1981-2100)
+
 
 
 ## Visualisations

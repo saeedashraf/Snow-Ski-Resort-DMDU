@@ -62,9 +62,6 @@ Huss (2008b) "Modelling runoff from highly glacierized alpine drainage basins in
 
 Hock (2005)"Glacier melt: a review of processes and their modelling" [link](https://journals.sagepub.com/doi/10.1191/0309133305pp453ra)
 
-
-###  Notebooks
-No1. [snowModel version 2](snowmodel_py/snow_model_v2.ipynb)
 </details>
 
 <details>
@@ -82,7 +79,7 @@ Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for 
 
 Damm et al (2014), "Does artificial snow production pay under future climate conditions?"[link](https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub)
 ###  Notebooks
-Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
+Code_Python_15. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 
 </details>
 
@@ -102,23 +99,7 @@ Kwakkel (2017), "The Exploratory Modeling Workbench: An open source toolkit for 
 Damm et al (2014), "Does artificial snow production pay under future climate conditions?"[link](https://www.sciencedirect.com/science/article/abs/pii/S0261517714000107?via%3Dihub)
 
 ###  Notebooks
-No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
-
-No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
-
-No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_ch2018_v1_ema_workbench.ipynb)
-
-No10. [snowModel version 2_5_eandomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
-
-No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
-
-No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
-
-No13. [XLR_version5](ema_/XLR_v5_randomness.ipynb)
-
-No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
-
-Code_Python_15. [XLR_framework_python](XLR_Framework.py)
+Code_Python_16. [XLR_framework_python](XLR_Framework_setup1.py)
 
 </details>
 
@@ -128,42 +109,18 @@ Code_Python_15. [XLR_framework_python](XLR_Framework.py)
 ###  Literature
 
 ###  Notebooks
-No17. [XLR_Visualization_version8_setup1](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
+No17. [XLR_Visualization_version9](snow_model_vcloned_v9_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
 
-No18. [XLR_Visualization_version8_setup2](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup2.ipynb)
-
-No19. [XLR_Visualization_version8_setup3_no plicy](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup3.ipynb)
 </details>
 
 ## All the Jupyter notebooks and Python codes of the project:
 All the codes are presented here:
 
-No7. [snowModel version 2_EMA-workbench](snowmodel_py/snow_model_v2_ema_workbench.ipynb)
+Code_Python_15. [Precipitation and temperature generator](tmp_pcp_Generator.py)
 
-No8. [snowModel version 2-3_EMA-workbench](snowmodel_py/snow_model_v2-3_ema_workbench.ipynb)
+Code_Python_16. [XLR_framework_python](XLR_Framework_setup1.py)
 
-No9. [snowModel version 2_5_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_ch2018_v1_ema_workbench.ipynb)
-
-No10. [snowModel version 2_5_EMA-workbench](snowmodel_py/snow_model_vcloned_v2_5_v1_ema_workbench.ipynb)
-
-No11. [snowModel version 3_CH2018_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_ch2018_ema_workbench.ipynb)
-
-No12. [snowModel version 3_randomness_EMA-workbench](snowmodel_py/snow_model_vcloned_v3_randomness_ema_workbench.ipynb)
-
-No13. [XLR_version5](ema_/XLR_v5_randomness.ipynb)
-
-No14. [XLR_version6](snow_model_vcloned_v6_randomness_case3_Hoch_Ybrigh.ipynb)
-
-Code_Python_15. [XLR_framework_python](XLR_Framework.py)
-
-Code_Python_16. [Precipitation and temperature generator](tmp_pcp_Generator.py)
-
-No17. [XLR_Visualization_version8_setup1](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
-
-No18. [XLR_Visualization_version8_setup2](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup2.ipynb)
-
-No19. [XLR_Visualization_version8_setup3_no plicy](snow_model_vcloned_v8_randomness_case3_Hoch_Ybrigh_setup3.ipynb)
-
+No17. [XLR_Visualization_version9](snow_model_vcloned_v9_randomness_case3_Hoch_Ybrigh_setup1.ipynb)
 
 
 ## Outputs:
@@ -180,4 +137,4 @@ Manuscript:
 
 ## Acknowledgments
 
-Thanks to all our collaborators at the UZH, Deltares, and SLF and all other colleagues contributing with advice and experience.
+Thanks to all our collaborators at the UZH, Deltares, SLF and all other colleagues who contributed with their advice.

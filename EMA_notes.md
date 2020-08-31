@@ -31,16 +31,23 @@ Returns:
 *y1* : climateModel (Scalar) ~ the (input???) climate model?  (from 0 to 70)  
 *y3* : sumRows (Array) ~ the number of tipping points per year? (from 2500 to 13,000)  
 *y4* : AveragesumRowsArtSnow (Scalar) ~ summary of days with artifical snow making? (from 5000 to 10,000)  
-*y5* : AveragesumRowsProfit (Scalar) ~ average of days in which profit is made? (from 0 to -150)  
+*y4* : AveragesumRowsProfit (Scalar) ~ average of days in which profit is made? (from 0 to -150)  
 *y6* : AveragereportMatrix (Scalar) ~ ?? (from 0.1 to 0.8) 
 
-y: Seasonal average (1981-2100) of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
-y1: The Climate model which has been used (Should not be presented in the outcomes)
-y3: Seasonal (1981-2100) number of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
-y4: Seasonal average (1981-2100) of number of days with the possibility of Artificial Snow Making (ave TEMP < -2 to -1)
-y5: Relative seasonal average (1981-2100) of Financial balance of Ski resort
-y6: Seasonal average (1981-2100) Likelihood of survival of a Ski resort from tipping points
-y7: Number of tipping points (1981-2100)
+*y*: Seasonal average (1981-2100) of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
+
+*y1*: The Climate model which has been used (Should not be presented in the outcomes)
+
+*y3*: Seasonal (1981-2100) number of days with Good Snow Conditions for Skiing (snow depth > 200 - 300 mm)
+
+*y4*: Seasonal average (1981-2100) of number of days with the possibility of Artificial Snow Making (ave TEMP < -2 to -1)
+
+*y5*: Relative seasonal average (1981-2100) of Financial balance of Ski resort
+
+*y6*: Seasonal average (1981-2100) Likelihood of survival of a Ski resort from tipping points
+
+*y7*: Number of tipping points (1981-2100)
+
 
 
 ## Visualisations

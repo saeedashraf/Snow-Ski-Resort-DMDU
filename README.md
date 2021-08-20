@@ -1,4 +1,4 @@
-# Snow-Ski-Resort-DMDU
+# Snow-Ski-Resort-DMDU (A Risk Assessment Model for Ski Resorts)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.

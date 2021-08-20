@@ -1,4 +1,4 @@
-# Snow-Ski-Resort-DMDU (A Risk Assessment Model for Ski Resorts)
+# Snow-Ski-Resort-DMDU (A Risk Assessment Framework for Ski Resorts)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Repo with the code, data, and analysis for the Ski project of University of Zürich.

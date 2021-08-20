@@ -1,16 +1,17 @@
 # Snow-Ski-Resort-DMDU (A Risk Assessment Model for Ski Resorts)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+Repo with the code, data, and analysis for the Ski project of University of Zürich.
+
 This project analyses the impact of climate change on the financial situation and tipping points of Ski resorts.
 
-repo with the code, data, and analysis for the Ski project of University of Zürich.
 The repository contains the code and partial data for the manuscript:
+Under review
 
 ## Getting Started
 To set up a working example, clone the GitHub repository and install all software requirements listed in the requirements.txt. Main tool used is Python. Installing within an Anaconda environment is recommended.
 
 In order to run illustrative examples six downloads are required from:
-
 
 Once repository is set up locally with all code and correctly placed data, follow below instructions for each step.
 
